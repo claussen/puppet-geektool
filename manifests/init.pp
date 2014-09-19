@@ -7,7 +7,7 @@
 #     version => '3.1.1-311',
 #   }
 class geektool($version = '3.3.1-311') {
-  package { 'geektool':
+  package { 'Geektool':
     ensure   => installed,
     source   => "http://download.tynsoe.org/GeekTool-${version}.zip",
     provider => compressed_app,
